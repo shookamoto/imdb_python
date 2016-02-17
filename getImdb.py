@@ -86,5 +86,7 @@ while(currentRows<numObs):
 os.chdir(outPath)
 df.to_csv("imdb.csv", sep=',')
 
+print("Small change")
+
 
 
